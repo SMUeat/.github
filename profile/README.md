@@ -111,226 +111,77 @@
 
 ## 📂 Directory Structure
 
-### Frontend_Web
 ```bash
-├── package-lock.json
-├── package.json
-├── public
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── manifest.json
-│   ├── memoicon128.png
-│   ├── memoicon192.png
-│   ├── memoicon512.png
-│   └── robots.txt
-└── src
-    ├── App.css
-    ├── App.js
-    ├── App.test.js
-    ├── assets
-    │   ├── fonts
-    │   │   ├── BMJUA_ttf.ttf
-    │   │   ├── Kalam-Bold.ttf
-    │   │   ├── Kalam-Light.ttf
-    │   │   └── Kalam-Regular.ttf
-    │   └── images
-    │       └── user.png
-    ├── components
-    │   ├── List
-    │   │   ├── FriendList.jsx
-    │   │   ├── InviteFriendList.jsx
-    │   │   ├── MemoList.jsx
-    │   │   ├── MemoListItem.jsx
-    │   │   ├── SelectFriendList.jsx
-    │   │   └── SenderList.jsx
-    │   ├── Modal
-    │   │   ├── ConfirmModal.jsx
-    │   │   ├── FriendGroupModal.jsx
-    │   │   └── SendFriendshipModal.jsx
-    │   ├── Navigation
-    │   │   ├── LoadingNav.jsx
-    │   │   ├── NewMemoNav.jsx
-    │   │   ├── NoLoginNav.jsx
-    │   │   ├── ReadAndEditMemoNav.jsx
-    │   │   └── YesLoginNav.jsx
-    │   ├── Styled
-    │   │   ├── BasicWrapper.jsx
-    │   │   ├── HelloWrapper.jsx
-    │   │   ├── NavWrapper.jsx
-    │   │   └── OneMemoWrapper.jsx
-    │   └── UI
-    │       ├── Checkbox.jsx
-    │       ├── DropdownCenter.jsx
-    │       ├── DropdownLeft.jsx
-    │       ├── DropdownRight.jsx
-    │       ├── FriendOptionDropdownCenter.jsx
-    │       ├── IsStarButton.jsx
-    │       ├── MemoOptionButton.jsx
-    │       ├── MemoOptionDropdownRight.jsx
-    │       ├── NewMemoOptionDropdownRight.jsx
-    │       ├── SearchMemo.jsx
-    │       └── SortMemo.jsx
-    ├── hooks
-    │   └── useDetectDropdown.jsx
-    ├── index.css
-    ├── index.js
-    ├── logo.svg
-    ├── pages
-    │   ├── Etc
-    │   │   ├── DownloadPage.jsx
-    │   │   ├── InformationPage.jsx
-    │   │   └── NoticePage.jsx
-    │   ├── Friend
-    │   │   ├── FriendListPage.jsx
-    │   │   └── SenderListPage.jsx
-    │   ├── Memo
-    │   │   ├── MemoListPage.jsx
-    │   │   ├── NewMemoPage.jsx
-    │   │   └── ReadAndEditMemoPage.jsx
-    │   └── User
-    │       ├── ChangePwPage.jsx
-    │       ├── LoginPage.jsx
-    │       ├── SignupPage.jsx
-    │       └── UserProfilePage.jsx
-    ├── reportWebVitals.js
-    ├── setupTests.js
-    └── utils
-        ├── CheckToken.js
-        └── lazyUtil.js
-```
-
-### Frontend_App
-```bash
-├── App.js
-├── app.json
-├── assets
-│   ├── adaptive-icon.png
-│   ├── favicon.png
-│   ├── icon.png
-│   └── splash.png
-├── babel.config.js
-├── eas.json
-├── package-lock.json
-└── package.json
-```
-
-### Backend
-```bash
-└── src
-    ├── main
-    │   ├── generated
-    │   ├── java
-    │   │   └── com
-    │   │       └── shj
-    │   │           └── onlinememospringproject
-    │   │               ├── OnlinememoSpringProjectApplication.java
-    │   │               ├── config
-    │   │               │   ├── JwtSecurityConfig.java
-    │   │               │   ├── SwaggerConfig.java
-    │   │               │   └── WebSecurityConfig.java
-    │   │               ├── controller
-    │   │               │   ├── AuthController.java
-    │   │               │   ├── FriendshipController.java
-    │   │               │   ├── MemoController.java
-    │   │               │   ├── TestController.java
-    │   │               │   └── UserController.java
-    │   │               ├── domain
-    │   │               │   ├── DefaultFriendshipEntity.java
-    │   │               │   ├── DefaultMemoEntity.java
-    │   │               │   ├── friendship
-    │   │               │   │   ├── Friendship.java
-    │   │               │   │   └── FriendshipJpaRepository.java
-    │   │               │   ├── memo
-    │   │               │   │   ├── Memo.java
-    │   │               │   │   └── MemoJpaRepository.java
-    │   │               │   ├── user
-    │   │               │   │   ├── Authority.java
-    │   │               │   │   ├── User.java
-    │   │               │   │   └── UserJpaRepository.java
-    │   │               │   └── userandmemo
-    │   │               │       ├── UserAndMemo.java
-    │   │               │       └── UserAndMemoJpaRepository.java
-    │   │               ├── dto
-    │   │               │   ├── friendship
-    │   │               │   │   ├── FriendshipRequestDto.java
-    │   │               │   │   ├── FriendshipResponseDto.java
-    │   │               │   │   ├── FriendshipSendRequestDto.java
-    │   │               │   │   ├── FriendshipSendResponseDto.java
-    │   │               │   │   └── FriendshipUpdateRequestDto.java
-    │   │               │   ├── memo
-    │   │               │   │   ├── MemoInviteResponseDto.java
-    │   │               │   │   ├── MemoResponseDto.java
-    │   │               │   │   ├── MemoSaveRequestDto.java
-    │   │               │   │   ├── MemoSaveResponseDto.java
-    │   │               │   │   ├── MemoUpdateRequestDto.java
-    │   │               │   │   └── MemoUpdateStarRequestDto.java
-    │   │               │   ├── token
-    │   │               │   │   └── TokenDto.java
-    │   │               │   ├── user
-    │   │               │   │   ├── UserIdResponseDto.java
-    │   │               │   │   ├── UserLoginRequestDto.java
-    │   │               │   │   ├── UserRequestDto.java
-    │   │               │   │   ├── UserRequestDtos.java
-    │   │               │   │   ├── UserResponseDto.java
-    │   │               │   │   ├── UserSignupRequestDto.java
-    │   │               │   │   ├── UserUpdateNameRequestDto.java
-    │   │               │   │   └── UserUpdatePwRequestDto.java
-    │   │               │   └── userandmemo
-    │   │               │       ├── UserAndMemoRequestDto.java
-    │   │               │       └── UserAndMemoResponseDto.java
-    │   │               ├── jwt
-    │   │               │   ├── JwtAccessDeniedHandler.java
-    │   │               │   ├── JwtAuthenticationEntryPoint.java
-    │   │               │   ├── JwtFilter.java
-    │   │               │   └── TokenProvider.java
-    │   │               ├── response
-    │   │               │   ├── GlobalExceptionHandler.java
-    │   │               │   ├── ResponseCode.java
-    │   │               │   ├── ResponseData.java
-    │   │               │   ├── exception
-    │   │               │   │   ├── FriendshipBadRequestException.java
-    │   │               │   │   ├── FriendshipDuplicateException.java
-    │   │               │   │   ├── LoginIdDuplicateException.java
-    │   │               │   │   ├── MemoSortBadRequestException.java
-    │   │               │   │   ├── NoSuchFriendshipException.java
-    │   │               │   │   ├── NoSuchMemoException.java
-    │   │               │   │   ├── NoSuchUserException.java
-    │   │               │   │   └── UserAndMemoDuplicateException.java
-    │   │               │   └── responseitem
-    │   │               │       ├── MessageItem.java
-    │   │               │       └── StatusItem.java
-    │   │               ├── service
-    │   │               │   ├── FriendshipService.java
-    │   │               │   ├── MemoService.java
-    │   │               │   ├── UserAndMemoService.java
-    │   │               │   ├── UserService.java
-    │   │               │   ├── auth
-    │   │               │   │   ├── AuthService.java
-    │   │               │   │   └── CustomUserDetailsService.java
-    │   │               │   └── logic
-    │   │               │       ├── FriendshipServiceLogic.java
-    │   │               │       ├── MemoServiceLogic.java
-    │   │               │       ├── UserAndMemoServiceLogic.java
-    │   │               │       └── UserServiceLogic.java
-    │   │               └── util
-    │   │                   └── SecurityUtil.java
-    │   └── resources
-    │       ├── application-jwt.properties
-    │       ├── application-mysql.properties
-    │       ├── application.properties
-    │       ├── logback-spring.xml
-    │       ├── static
-    │       └── templates
-    └── test
-        └── java
-            └── com
-                └── shj
-                    └── onlinememospringproject
-                        ├── OnlinememoSpringProjectApplicationTests.java
-                        └── service
-                            ├── MemoServiceTest.java
-                            ├── UserAndMemoServiceTest.java
-                            └── UserServiceTest.java
+├── SMUeat
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-39.pyc
+│   │   ├── admin.cpython-39.pyc
+│   │   ├── apps.cpython-39.pyc
+│   │   ├── forms.cpython-39.pyc
+│   │   ├── models.cpython-39.pyc
+│   │   ├── tests.cpython-39.pyc
+│   │   ├── urls.cpython-39.pyc
+│   │   └── views.cpython-39.pyc
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── migrations
+│   │   ├── 0001_initial.py
+│   │   ├── 0002_alter_review_comment.py
+│   │   ├── 0003_review_password.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── 0001_initial.cpython-39.pyc
+│   │       ├── 0002_alter_review_comment.cpython-39.pyc
+│   │       ├── 0003_review_password.cpython-39.pyc
+│   │       └── __init__.cpython-39.pyc
+│   ├── models.py
+│   ├── static
+│   │   └── SMUeat
+│   │       └── 상명대마크.png
+│   ├── templates
+│   │   └── SMUeat
+│   │       ├── base.html
+│   │       ├── checkpassword.html
+│   │       ├── checkpassword_review.html
+│   │       ├── create_place.html
+│   │       ├── create_place_fail.html
+│   │       ├── create_review.html
+│   │       ├── delete_place.html
+│   │       ├── delete_review.html
+│   │       ├── info.html
+│   │       ├── notice.html
+│   │       ├── place_list.html
+│   │       ├── review_list.html
+│   │       ├── search_fail.html
+│   │       ├── search_success.html
+│   │       ├── tmi.html
+│   │       └── update_review.html
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── db.sqlite3
+├── manage.py
+├── projectdjango
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-39.pyc
+│   │   ├── settings.cpython-39.pyc
+│   │   ├── urls.cpython-39.pyc
+│   │   └── wsgi.cpython-39.pyc
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+└── static2
+    ├── SMUeat
+    │   └── 상명대마크.png
+    └── admin
+        ├── css
+        ├── fonts
+        ├── img
+        └── js
 ```
 <br>
 
