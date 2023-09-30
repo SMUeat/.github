@@ -35,32 +35,17 @@
 
 ### PC Page
 
-**Memo list**|**View memo**|**Invite friends**
------|-----|-----
-<img src="https://github.com/OnlineMemo/.github/assets/56509933/d662b9b9-4c55-4fbb-8199-b5e6dd222f0e" width="100%">|<img src="https://github.com/OnlineMemo/.github/assets/56509933/35c09de5-7f59-4e06-ab74-d9bcd6f0647e" width="100%">|<img src="https://github.com/OnlineMemo/.github/assets/56509933/2096b659-80ca-4f77-b6b7-7f4c760357e0" width="100%">
-메모들 목록을 나열합니다.|메모 내용을 조회합니다.|메모에 친구들을 초대하거나, 함께 새로운 메모를 작성합니다.
+**Main page**|**Admin sort**
+-----|-----
+<img src="https://github.com/SMUeat/.github/assets/56509933/aa05c9c6-1dbb-4ae5-8019-c23725888959" width="100%">|<img src="https://github.com/SMUeat/.github/assets/56509933/6f25afae-fbf4-47e4-8b09-326d1b65370b" width="100%">
+모든 장소를 순위별로 정렬한 목록 메인 페이지 입니다.|관리자용 정렬 페이지 입니다.
 
 ### Mobile Page
 
-**Login**|**SignUp**|**Change pw**
------|-----|-----
-<img src="https://github.com/OnlineMemo/.github/assets/56509933/1f5c053b-13e5-4da2-9a4f-3db57e983611" width="100%">|<img src="https://github.com/OnlineMemo/.github/assets/56509933/af5c6b6f-1f31-49ff-a57d-1b6f5a304032" width="100%">|<img src="https://github.com/OnlineMemo/.github/assets/56509933/b2f2b934-dec5-41f2-ba99-b070f12bf512" width="100%">
-로그인 합니다.|회원가입 합니다.|계정의 비밀번호를 변경합니다.
-
-**Memo list**|**New memo**|**View memo**
------|-----|-----
-<img src="https://github.com/OnlineMemo/.github/assets/56509933/6e5a4727-56b1-473f-8451-fed8864ae91a" width="100%">|<img src="https://github.com/OnlineMemo/.github/assets/56509933/9101fd58-c90a-48dd-af24-a3693aec1b7d" width="100%">|<img src="https://github.com/OnlineMemo/.github/assets/56509933/7eb239e1-b338-4141-a6e6-745140167b70" width="100%">
-메모들 목록을 나열합니다.|새로운 개인 메모를 작성합니다.|메모 내용을 조회합니다.
-
-**Friend list**|**Received list**|**Invite friends**
------|-----|-----
-<img src="https://github.com/OnlineMemo/.github/assets/56509933/981d4884-5faf-488d-9822-339fd866ce5d" width="100%">|<img src="https://github.com/OnlineMemo/.github/assets/56509933/ae8c9f27-2b47-4a9e-99e3-d1a5c8a0eb92" width="100%">|<img src="https://github.com/OnlineMemo/.github/assets/56509933/707a9527-ec8a-4863-8d12-608693bc3e8e" width="100%">
-친구들 목록을 나열합니다.|친구요청 수신 목록을 조회합니다.|메모에 친구들을 초대하거나, 함께 새로운 메모를 작성합니다.
-
-**User profile**|**Notice**|**App guide**
------|-----|-----
-<img src="https://github.com/OnlineMemo/.github/assets/56509933/d28b8bb5-55fe-4fcf-8225-5ad557a945e3" width="100%">|<img src="https://github.com/OnlineMemo/.github/assets/56509933/5fc7b037-2e48-4e0c-b0ce-29d89787cd50" width="100%">|<img src="https://github.com/OnlineMemo/.github/assets/56509933/419c769b-71bc-46c1-af13-f4ea16d2f93a" width="100%">
-회원정보를 조회합니다.|공지사항 페이지 입니다.|모바일앱 다운로드 안내 페이지 입니다.
+**Main page**|**Admin sort**
+-----|-----
+<img src="https://github.com/SMUeat/.github/assets/56509933/276f6e02-bed9-450b-a836-109463837cc2" width="100%">|<img src="https://github.com/SMUeat/.github/assets/56509933/0b505996-6f0e-48a7-8982-c910802cba5c" width="100%">
+모든 장소를 순위별로 정렬한 목록 메인 페이지 입니다.|관리자용 정렬 페이지 입니다.
 
 <br>
 
