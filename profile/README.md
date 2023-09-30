@@ -100,7 +100,7 @@
 
 
 ## 🗂️ Database
-<img width="1470" alt="mysql DB ERD" src="https://github.com/OnlineMemo/.github/assets/56509933/6bf90043-9bb4-435d-9ac3-5c8e8123a34c">
+<img width="1470" alt="DB ERD" src="https://github.com/SMUeat/.github/assets/56509933/accaf8c4-14d7-4b22-8c20-7947136f5fdc">
 <br><br>
 
 
