@@ -105,12 +105,6 @@
 
 
 
-## 📗 API
-<img width="1470" alt="swagger api" src="https://github.com/OnlineMemo/.github/assets/56509933/68f1cfd3-c763-47ba-b1f9-18dfcc51e64f">
-<br><br>
-
-
-
 ## 📂 Directory Structure
 
 ```bash
