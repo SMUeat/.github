@@ -18,8 +18,9 @@
 ## 🔍 Introduction
 
 ### 주제 선정
-기존의 메모장들에는 잡다한 많은 기능들이 탑재되어있어 사용에 어려움을 느꼈습니다. <br>
-이에 본연의 기능을 살리고 남녀노소 누구나 쉽게 이용 가능한 메모장을 만들어보자는 생각에 아이디어를 얻었습니다.
+학교생활을 하며 매끼니를 뭘 먹을지 고민하는 많은 상명대생들의 고충을 접했습니다. <br>
+하지만 기존 식당 리뷰는 외부인이 작성하여 상명대생들의 입맛과는 달랐다고 하였습니다. <br>
+이에 상명대생들이 직접 만들어나가는 그들만의 기준이 담긴 식당 순위표를 제공해보자는 생각에 아이디어를 얻었습니다.
 
 ### 특징
 - 불필요한 기능을 제거하고, 간편하고 직관적인 디자인으로 주요 기능의 접근성을 높였습니다. <br>
@@ -29,14 +30,6 @@
 - 여러 사람이 공동으로 메모를 작성 및 관리할 수 있는 '공동 메모' 기능을 추가하였습니다. <br>
 대학생 팀플이나 회의 내용 작성으로도 적합합니다.
 - 광고 삽입은 접근성을 떨어뜨리기에, 수익창출 없이 무료로 이용 가능하도록 하였습니다.
-
-### 접속
-- Website link: <a href="https://www.onlinememo.kr">www.OnlineMemo.kr</a>
-- Android app: <a href="https://play.google.com/store/apps/details?id=com.shj.onlinememo">Play Store Download</a>
-<div align="center">
-  <img width="1470" alt="플레이스토어 스크린샷" src="https://github.com/OnlineMemo/.github/assets/56509933/ab015384-804a-4bf8-9ac6-4e238623cf13">
-  <img width="1470" alt="플레이스토어 PC 스크린샷" src="https://github.com/OnlineMemo/.github/assets/56509933/b8d9ebd0-8afe-48a5-ab2a-7d8ea99f7065">
-</div>
 <br>
 
 
