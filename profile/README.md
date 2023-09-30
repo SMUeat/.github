@@ -44,7 +44,7 @@
 
 **Main page**|**Admin sort**
 -----|-----
-<img src="https://github.com/SMUeat/.github/assets/56509933/276f6e02-bed9-450b-a836-109463837cc2" width="100%">|<img src="https://github.com/SMUeat/.github/assets/56509933/0b505996-6f0e-48a7-8982-c910802cba5c" width="100%">
+<img src="https://github.com/SMUeat/.github/assets/56509933/31d40f29-b289-4cf5-bcd4-b9d5955c8337" width="100%">|<img src="https://github.com/SMUeat/.github/assets/56509933/f33597eb-53c8-4550-9a2c-2fb3c282d888" width="100%">
 모든 장소를 순위별로 정렬한 목록 메인 페이지 입니다.|관리자용 정렬 페이지 입니다.
 
 <br>
