@@ -27,7 +27,9 @@
 - 식당과 술집으로 카테고리를 나누어, 목적에 맞춰 쉽게 장소를 찾을 수 있도록 하였습니다.
 - 상명대생들의 기준이 담긴 식당 순위표이므로, 장소를 직접 추가하여 아직 리스트에 존재하지않은 맛집을 추가할 수 있습니다.
 - 1~3위의 장소에는 노란색 테두리와 트로피 그림으로 도드라지게 나타내어, 최상위권 식당임을 나타냅니다.
-<br>
+
+### 운영
+- Operation:&nbsp;&nbsp;2022/08/31 ~ 2023/09/01 (1 year)
 
 
 
@@ -60,15 +62,14 @@
 ## 💡 Tech Stack
 |Frontend|Backend|Other|
 |:------:|:------:|:------:|
-|<img src="https://img.shields.io/badge/Django Template Engine-092E20?style=flat-square&logo=Django&logoColor=white"/></a><br><img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/></a><br><img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/></a><br><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/></a>|<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white"/></a><br><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/></a><br><img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=SQLite&logoColor=white"/></a>|<img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white"/></a><br><img src="https://img.shields.io/badge/Github-111011?style=flat-square&logo=Github&logoColor=white"/></a><br><img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white"/></a>
+|<img src="https://img.shields.io/badge/Django Template Engine-092E20?style=flat-square&logo=Django&logoColor=white"/></a><br><img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/></a><br><img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/></a><br><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/></a>|<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white"/></a><br><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/></a><br><img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=SQLite&logoColor=white"/></a>|<img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white"/><br></a><img src="https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=NGINX&logoColor=white"/></a><br><img src="https://img.shields.io/badge/uWSGI-00A98F?style=flat-square&logo=uWSGI&logoColor=white"/></a>
 
 ```
 - Frontend : Django Template Engine, HTML, CSS, JavaScript
 - Backend : Django, Python
-- Database: SQLite
-- Deployment: Amazon AWS
-- Version control: Github
-- Development Environment : Visual studio code
+- Database : SQLite
+- Deployment : Amazon AWS
+- Web Server : Nginx, uWSGI
 ```
 <br>
 
