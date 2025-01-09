@@ -85,29 +85,9 @@
 
 ```bash
 ├── SMUeat
-│   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── __init__.cpython-39.pyc
-│   │   ├── admin.cpython-39.pyc
-│   │   ├── apps.cpython-39.pyc
-│   │   ├── forms.cpython-39.pyc
-│   │   ├── models.cpython-39.pyc
-│   │   ├── tests.cpython-39.pyc
-│   │   ├── urls.cpython-39.pyc
-│   │   └── views.cpython-39.pyc
 │   ├── admin.py
 │   ├── apps.py
 │   ├── forms.py
-│   ├── migrations
-│   │   ├── 0001_initial.py
-│   │   ├── 0002_alter_review_comment.py
-│   │   ├── 0003_review_password.py
-│   │   ├── __init__.py
-│   │   └── __pycache__
-│   │       ├── 0001_initial.cpython-39.pyc
-│   │       ├── 0002_alter_review_comment.cpython-39.pyc
-│   │       ├── 0003_review_password.cpython-39.pyc
-│   │       └── __init__.cpython-39.pyc
 │   ├── models.py
 │   ├── static
 │   │   └── SMUeat
@@ -136,12 +116,6 @@
 ├── db.sqlite3
 ├── manage.py
 ├── projectdjango
-│   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── __init__.cpython-39.pyc
-│   │   ├── settings.cpython-39.pyc
-│   │   ├── urls.cpython-39.pyc
-│   │   └── wsgi.cpython-39.pyc
 │   ├── asgi.py
 │   ├── settings.py
 │   ├── urls.py
